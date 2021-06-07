@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: #e5eff5;
+  padding: 50px 30px;
+}
+
+header {
+  padding: 30px;
+  font-size: 20px;
+  background-color: white;
+}
+
+header h3 {
+  color: #2ab2af;
+  font-weight: bolder;
+}
+
+header h4 {
+  color: #c0df34;
+  margin: 20px 0;
+  font-size: 17px;
+}
+
+header p {
+  color: #98a6bd;
+  line-height: 25px;
+}
+
+main {
+  color: #e5eff5;
+}
+
+main .price {
+  background-color: #2ab2af;
+  padding: 40px 30px;
+  position: relative;
+}
+
+main .price h2 {
+  font-size: 30px;
+  margin: 18px 0 14px 0;
+  color: white;
+}
+
+main .price h2 span {
+  font-size: 16px;
+  position: absolute;
+  top: 87px;
+  left: 100px;
+  color: rgba(255, 255, 255, 0.644);
+}
+
+main .price button {
+  width: 100%;
+  background-color: #c0df34;
+  padding: 18px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 30px;
+  -webkit-box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.329);
+          box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.329);
+}
+
+main .price button:hover {
+  background-color: #afcf20;
+}
+
+main .why-us {
+  background-color: #2ec2c0;
+  padding: 30px;
+}
+
+main .why-us h3 {
+  margin-bottom: 20px;
+}
+
+main .why-us p {
+  margin-bottom: 7px;
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+    width: 600px;
+  }
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+  }
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .price {
+    width: 50%;
+  }
+  main .why-us {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
